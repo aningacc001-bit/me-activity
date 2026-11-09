@@ -1,0 +1,13 @@
+node_modules/
+.env
+coverage/
+reports/
+*.log
+.DS_Store
+/outputs/
+/uploads/
+/.bcode/
+/AGENTS.md
+/MEMORY.md
+/.promote-manifest.json
+/.restore-marker
