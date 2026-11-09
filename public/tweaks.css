@@ -1,0 +1,6 @@
+.asset-row,.asset-header{grid-template-columns:minmax(0,1.4fr) minmax(80px,.8fr) minmax(76px,.7fr) minmax(70px,.7fr)}
+.asset-header{display:grid;gap:8px;color:#858585;font:9px var(--mono);text-transform:uppercase;letter-spacing:.06em;padding:0 0 9px}
+.asset-header span:not(:first-child){text-align:right}
+.asset-header span{min-width:0}
+.report-actions{display:flex;gap:7px;flex-wrap:wrap}
+@media(max-width:760px){.asset-row,.asset-header{grid-template-columns:minmax(0,1.2fr) minmax(55px,.8fr) minmax(54px,.7fr) minmax(50px,.7fr);gap:4px}.asset-name{gap:6px}.asset-name strong{font-size:10px}.coin-icon{width:25px;height:25px}.asset-value{font-size:9px}.asset-header{font-size:8px}}
